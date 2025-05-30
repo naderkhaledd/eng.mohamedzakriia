@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة أبو زعبل للأسمدة</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="splash-screen" id="splashScreen">
+        <div class="logo-container">
+            <img src="photo/IMG-20200304-WA0012-768x560.jpg" alt="شعار شركة أبو زعبل للأسمدة" id="splashLogo">
+        </div>
+    </div>
+
+    <div class="main-content" id="mainContent" style="display: none;">
+        <header>
+            <nav class="container">
+                <div class="site-title">
+                    <img src="photo/IMG-20200304-WA0012-768x560.jpg" alt="شعار شركة أبو زعبل" class="header-logo">
+                </div>
+                <button class="menu-toggle" aria-label="فتح القائمة" aria-expanded="false">☰</button>
+                <ul>
+                    <li><a href="#" class="navigation-trigger main-nav-link" data-target-view-id="mainSectorsView">الرئيسية</a></li>
+                    <li><a href="#" class="navigation-trigger main-nav-link" data-target-view-id="boardMembersView">مجلس إدارة المجموعة</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero view-section" id="heroView">
+            <div class="container">
+                <h2>مرحباً بكم في شركة أبو زعبل للأسمدة</h2>
+                <p>رواد صناعة الأسمدة عالية الجودة لزيادة إنتاجية محاصيلكم.</p>
+                <a href="#" class="cta-button">اكتشف المزيد</a>
+            </div>
+        </section>
+
+        <section class="view-section active-view" id="mainSectorsView">
+            <div class="container">
+                <button class="back-button navigation-trigger" data-target-view-id="heroView" style="display:none;">← العودة للترحيب</button>
+                <h2>قطاعاتنا الرئيسية</h2>
+                <div class="sector-options">
+                    <div class="sector-card navigation-trigger" data-target-view-id="sulfuricServicesView">
+                        <div class="sector-icon">🏭</div>
+                        <h3>قطاع الكبريتيك</h3>
+                        <p>استكشف منتجاتنا وحلولنا في قطاع حمض الكبريتيك.</p>
+                    </div>
+                    <a href="#phosphoric-acid-sector" class="sector-card">
+                        <div class="sector-icon">🧪</div>
+                        <h3>قطاع الفسفوريك</h3>
+                        <p>تعرف على دورنا الرائد في إنتاج حمض الفسفوريك.</p>
+                    </a>
+                    <a href="#fertilizer-1-sector" class="sector-card">
+                        <div class="sector-icon">🌱</div>
+                        <h3>قطاع سماد 1</h3>
+                        <p>حلول متكاملة من الأسمدة لتعزيز نمو محاصيلكم.</p>
+                    </a>
+                    <a href="#fertilizer-2-sector" class="sector-card">
+                        <div class="sector-icon">🌾</div>
+                        <h3>قطاع سماد 2</h3>
+                        <p>ابتكاراتنا في مجال الأسمدة المتخصصة لدعم زراعتكم.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="view-section" id="sulfuricServicesView">
+            <div class="container">
+                <button class="back-button navigation-trigger" data-target-view-id="mainSectorsView">← العودة إلى القطاعات</button>
+                <h2>خدمات ووحدات قطاع الكبريتيك</h2>
+                <div class="options-grid">
+                    <div class="option-card navigation-trigger" data-target-view-id="unit6DetailsView">
+                        <h4>الوحدة 6 كبريتيك</h4>
+                        <p>تفاصيل ومواصفات وملفات الوحدة 6.</p>
+                    </div>
+                    <div class="option-card navigation-trigger" data-target-view-id="unit7DetailsView">
+                        <h4>الوحدة 7 كبريتيك</h4>
+                        <p>تفاصيل ومواصفات وملفات الوحدة 7.</p>
+                    </div>
+                    <a href="https://drive.google.com/open?id=1J73O4DCU0ZaIFVYSlWYdFJmqHKI3KQqs&usp=drive_fs" target="_blank" class="option-card">
+                        <h4>Calendar</h4> <p>اطلع على جدول المواعيد والأحداث الهامة للقطاع.</p>
+                    </a>
+                    <a href="https://drive.google.com/open?id=1kalWJe8G7wV9duP2_YjPLkh-aL5DjOO0&usp=drive_fs" target="_blank" class="option-card">
+                        <h4>حالة المعدات</h4>
+                        <p>تابع الحالة التشغيلية لمعدات قطاع الكبريتيك.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="view-section" id="unit6DetailsView">
+            <div class="container">
+                <button class="back-button navigation-trigger" data-target-view-id="sulfuricServicesView">← العودة إلى خدمات الكبريتيك</button>
+                <h2>تفاصيل وملفات الوحدة 6 كبريتيك</h2>
+                <div class="drive-links-grid">
+                    <a href="https://drive.google.com/drive/folders/1--inGA-MigL7VkVduv2t5o19F09ybCSQ?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 1 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1x3mv50gqfrwQkkpvxjnjtT9ncRAD3wim?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 2 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1_miFsogRjixlZ2SfCDQLUmkxpOGGeb_w?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 3 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1wYFf6VWBrcT3-v6TTNXqAz5aZtmTssdw?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 4 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1TeOlyvZlBUq4U1V3y9LxEngdTIENwH8q?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 5 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1OmeARWheTnTvIh1hW_QkWCAwxPJnNgBB?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 6 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1YxOMuLP985QglAzY1Bjuq69KZwshXn5P?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 7 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1o2-pbhWevDpLXUYTggQgouWxz6i_nBdS?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 8 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1ZuVBkjs6M75xE6H4i9kvNWXn7XKNSfgf?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 9 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/18H0mqP6l9eIGDPnG1fJrOhHj9ipnHPDa?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 10 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1RMXIvXfoGDc1dzkkQdXslr66GgUNiX1G?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 11 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/17ute5jrbaJ3QJ8sboTboukiBzIaGHQ82?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 12 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1xwfNlFTd3LAZu4wAqFhlWZ4HHem9Q9yg?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 13 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1xFKup6NeIUx0RsnRQTCsmwFigRYpy000?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 14 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1F2pahgrhPTOarnJUvsIq3K81dsRBBHTi?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 15 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1cnpxzbBnB_b0GPZ2AM_NwHkkzej-xdWq?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 16 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1TjZb7whXKrU0xdRYJmfMg6lp3qXLSn8L?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 17 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/14x0Vx8NyXjxAhkvMrUOToXT7qcbpsK54?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 18 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1O7gEXtVlkFQvBLxodqmDdb1m2_NQBKVK?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 19 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1x42UFxK_Ii14bxzgKFBBQ7i9RYUQqbqi?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 20 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1Qu-7IOfQ0jgEHlxeMrnPnAljuoyEO83i?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 21 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/16ijAQR_0O_BJ-7TPtt50M8r8LOt5rNs9?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 22 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1kcKA8EFt78beSyUBKmDSXXmDXrckX1qO?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📄</span> ملف الوحدة 6 - رقم 23 (عدل النص)</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="view-section" id="unit7DetailsView">
+            <div class="container">
+                <button class="back-button navigation-trigger" data-target-view-id="sulfuricServicesView">← العودة إلى خدمات الكبريتيك</button>
+                <h2>تفاصيل وملفات الوحدة 7 كبريتيك</h2>
+                <div class="drive-links-grid">
+                    <a href="https://drive.google.com/drive/folders/1-nuasY5l4iei1hTio7EvAq_hKyTbfpmr?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 1 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1Ifwd1LgX2Rg0rwolNjrcKxrlvhFJ8MJ4?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 2 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1_jnk4Q50G89nXXERvkOEu_EVBSfbGT89?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 3 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1AcXCjN4Pu0tJP16Em8huGCBLE1MNawnm?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 4 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/16K9YeIflEBEAdt2KTMYQCRbWtokRX4uv?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 5 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1ilIj9yuZ6naidm606V7xwwGqFZvtzNyz?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 6 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1exIPJJh6TPyBgMNvCR_3HxwOC0J3XWRz?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 7 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1NFiZFxNHR_HgYWsaeHnlk1G9ILqBAqPY?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 8 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1DYfx4Yi7fQScwbh0nbOy-hlpof5_Lago?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 9 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1kd_fy0w58M9HfuBKABUw9Dtk9OUb6jRW?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 10 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/19xnHqg1ll2Yzlxj7BfU-Q8RFEhxVnuI5?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 11 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/19xnHqg1ll2Yzlxj7BfU-Q8RFEhxVnuI5?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 12 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1fgnkRXAXmM1GhfUxsVlAAOvjicP9Vafc?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 13 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1MeZi3-x-1QXzTa3k5Rj2Z_YnY0UdxFT1?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 14 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1MeZi3-x-1QXzTa3k5Rj2Z_YnY0UdxFT1?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 15 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1LhXsB8YAkKIoUpPDuzxRprGo_C_nLNFZ?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 16 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1eysMyYQp1RnX5idhnuB4rpbtSKR5u7hI?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 17 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1r7s8-wyCKEKOhXJOWdrqNdnSawm18kN-?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 18 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1S2YhPkLGjmE-zAqVrYihuxKZOyDW1yB_?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 19 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1WaEV2KcYxKpmB6IqWblpKjC1pXsMyvUY?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 20 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1LkLGn88gMwRYQDGharQZ-dgyGVEjtN3a?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 21 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1EX6ckD2Cng4wbtliFyjcDMSq0lBEhBui?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 22 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1mkwup1sMxjFEyQG_27ioNQ3_8W4ICa3q?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 23 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/14CJwaVOArc7Ug27qQ4W-jLs3cus7xuNK?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 24 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1mLwhAGKf0chj2QDHi8jZSNbyyOi_-Kpn?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 25 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1F4q2jmATmAfsiWfwLbu70V_PcCASrBbs?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 26 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1LtGfrbfVYuvOCY--_dVHgTI7llsp_bA1?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 27 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1g5a0WAIDFFm83FTZMm65ah1cs4ldA543?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 28 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/18-vsL5N3aVlFtD1NmGxp3c-L3xHMPZea?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 29 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1B4TufokQVlstJwHXoLEeF1AxIJ88_UfS?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 30 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1w_q2uGOYYD75rUKQJk_7vZ4sLQcb3S7W?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 31 (عدل النص)</a>
+                    <a href="https://drive.google.com/drive/folders/1B4TufokQVlstJwHXoLEeF1AxIJ88_UfS?usp=sharing" target="_blank" class="drive-link-button"><span class="drive-icon">📁</span> ملف الوحدة 7 - رقم 32 (عدل النص)</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="view-section" id="boardMembersView">
+            <div class="container">
+                <button class="back-button navigation-trigger" data-target-view-id="mainSectorsView">← العودة</button>
+                <h2>أعضاء مجلس إدارة المجموعة</h2>
+                <div class="board-members-grid">
+                    <div class="board-member-card navigation-trigger" data-target-view-id="member1DetailsView">
+                        <img src="photo/1.jpg" alt="رئيس مجلس ادراة المجموعة" class="board-member-photo">
+                        <p class="board-member-title">رئيس مجلس ادراة المجموعة</p>
+                    </div>
+                    <div class="board-member-card navigation-trigger" data-target-view-id="member2DetailsView">
+                        <img src="photo/2.jpg" alt="نائب رئيس مجلس ادارة المجموعة" class="board-member-photo">
+                        <p class="board-member-title">نائب رئيس مجلس ادارة المجموعة</p>
+                    </div>
+                    <div class="board-member-card navigation-trigger" data-target-view-id="member3DetailsView">
+                        <img src="photo/3.jpg" alt="العضو المنتدب والمدير التنفيذى للمجموعة" class="board-member-photo">
+                        <p class="board-member-title">العضو المنتدب والمدير التنفيذى للمجموعة</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="view-section" id="member1DetailsView">
+             <div class="container">
+                <button class="back-button navigation-trigger" data-target-view-id="boardMembersView">← العودة إلى مجلس الإدارة</button>
+                <div class="member-detail-content">
+                    <img src="photo/1.jpg" alt="د. شريف الجبلى" class="member-detail-photo">
+                    <h2 class="member-detail-name">د. شريف الجبلى</h2>
+                    <h3 class="member-detail-title">رئيس مجلس ادراة المجموعة</h3>
+                    <div class="member-bio">
+                        <p>هنا ستوضع بيانات السيرة الذاتية والإنجازات الخاصة برئيس مجلس الإدارة...</p>
+                    </div>
+                </div>
+             </div>
+        </section>
+        <section class="view-section" id="member2DetailsView">
+             <div class="container">
+                <button class="back-button navigation-trigger" data-target-view-id="boardMembersView">← العودة إلى مجلس الإدارة</button>
+                <div class="member-detail-content">
+                    <img src="photo/2.jpg" alt="م. عبدالسلام الجبلى" class="member-detail-photo">
+                    <h2 class="member-detail-name">م. عبدالسلام الجبلى</h2>
+                    <h3 class="member-detail-title">نائب رئيس مجلس ادارة المجموعة</h3>
+                    <div class="member-bio">
+                        <p>هنا ستوضع بيانات السيرة الذاتية والإنجازات الخاصة بنائب رئيس مجلس الإدارة...</p>
+                    </div>
+                </div>
+             </div>
+        </section>
+        <section class="view-section" id="member3DetailsView">
+             <div class="container">
+                <button class="back-button navigation-trigger" data-target-view-id="boardMembersView">← العودة إلى مجلس الإدارة</button>
+                 <div class="member-detail-content">
+                    <img src="photo/3.jpg" alt="م . مصطفى الجبلى" class="member-detail-photo">
+                    <h2 class="member-detail-name">م . مصطفى الجبلى</h2>
+                    <h3 class="member-detail-title">العضو المنتدب والمدير التنفيذى للمجموعة</h3>
+                    <div class="member-bio">
+                        <p>هنا ستوضع بيانات السيرة الذاتية والإنجازات الخاصة بالعضو المنتدب...</p>
+                    </div>
+                </div>
+             </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 شركة أبو زعبل للأسمدة. جميع الحقوق محفوظة.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
